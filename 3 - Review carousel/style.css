@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    background-image: url(/img/0.png);
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    position: relative;
+    z-index: 2;
+    margin-left: 45px;
+    margin-left: 72px;
+    border: 0px;
+    background-repeat: no-repeat;
+
+}
+#main{
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    padding-top: 20px;
+    box-shadow: 4px 4px 10px gray;
+}
+#line{
+    background-color: #46A4E9;
+    border-radius: 10px;
+    width: 150px;
+    height: 7px;
+    margin-bottom: 10px;
+    margin-left: 35%;
+    margin-top: 15px;
+}
+#revdiv{
+    height: 80%;
+}
+#color{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #46A4E9;
+    display: inline-block;
+    padding: 0px;
+    position: relative;
+    right: 119px;
+    bottom: 2px;
+    
+}
+#t{
+    background-color: #46A4E9;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: white;
+    z-index: 3;
+    display: inline-block;
+    position: relative;
+    font-size: 50px;
+    left: 110px;
+    bottom: 74px;
+}
+#name1,#name2{
+    display: inline;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 18px;
+}
+#job{
+    font-size: 15px;
+    padding-bottom: 10px;
+    color: #6BADEC;
+}
+#paragraph{
+    color: #8098AD;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#left , #right{
+    background-color: white;
+    border: none;
+    height: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color:  #46A4E9;
+    font-weight: bold;
+    cursor: pointer;
+}
+#left , #right:hover{
+    color: #42A4D3;
+}
+#suprise{
+    background-color: #ECF6FD;
+    border-color: #45A4E9;
+    color: #45A4E9;
+    padding: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#suprise:hover{
+    background-color: #45A4E9;
+    color: #ECF6FD;
+}
